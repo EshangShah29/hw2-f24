@@ -46,6 +46,7 @@ div{
     border-bottom:solid 2px;
     border-right: none;
     border-bottom: none;
+    border-top: none;
 
 }
 .blue {
@@ -74,6 +75,7 @@ div{
     border-left: 5px solid;
     border-right: none;
     border-bottom: none;
+    border-top: none;
 }
 .yellow p{
     color: #707070;
