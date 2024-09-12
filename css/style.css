@@ -7,6 +7,7 @@ body {
   
 h1{
     font-size: 42px;
+    text-align: center;
     padding: 15px;
 }
 h2{
@@ -43,16 +44,20 @@ div{
     margin-left: 50px;
     border-left: solid 5px;
     border-bottom:solid 2px;
+    border-right: none;
+    border-bottom: none;
 
 }
-.blue{
+.blue {
     background-color: blue;
     text-align: left;
     margin-right: 50px;
-    border-right: solid 5px;
-    border-top: solid 2px;
-
-}
+    border-right: 5px solid;
+    border-top: 2px solid;
+    border-left: none;
+    border-bottom: none;
+  }
+  
 .blue p{
     color: #C4C4C4;;
 }
@@ -67,6 +72,8 @@ div{
     margin-left: 50px;
     border-bottom: 2px solid;
     border-left: 5px solid;
+    border-right: none;
+    border-bottom: none;
 }
 .yellow p{
     color: #707070;
@@ -77,6 +84,8 @@ div{
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+    border-left: none;
+    border-bottom: none;
 }
 
 footer{
